@@ -15,7 +15,4 @@ public class UsersManagementPage {
 
     @FindBy (xpath = "//thead//th")
     public List<WebElement> tableColumns;
-
-
-
 }

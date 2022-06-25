@@ -12,12 +12,9 @@ public class LibraryLoginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-
     @FindBy(id = "inputEmail")
     public WebElement inputEmail;
 
     @FindBy(id = "inputPassword")
     public WebElement inputPassword;
-
-
 }

@@ -94,7 +94,6 @@ public class Login_StepDefinitions {
         mainPage.assertCount(count, str);
     }
 
-
     @And("I login as a librarian")
     public void ıLoginAsALibrarian() {
         ıLoginUsingAnd("librarian6@library", "n6Pt4ocG");

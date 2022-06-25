@@ -15,8 +15,6 @@ public class LibraryMainPage {
         PageFactory.initElements(Driver.getDriver(), this);
 
     }
-
-
     @FindBy(id = "user_avatar")
     public WebElement userAvatar;
 
@@ -32,8 +30,4 @@ public class LibraryMainPage {
         WaitUtils.waitText(element, "" + expectedCount);
         Assert.assertEquals("" + expectedCount,element.getText());
     }
-
-
-
-
 }
